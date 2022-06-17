@@ -39,13 +39,13 @@ function LeaderBoard(props) {
 
 	return (
 		<div className="text-center mt-50">
-			<BrowserRouter>
+			{/* <BrowserRouter> */}
 			<Routes>
 				<Route path="/rank" element={<Rank></Rank>}></Route>
 				<Route path="/name" element={<Name></Name>}></Route>
 				
 			</Routes>
-			</BrowserRouter>
+			{/* </BrowserRouter> */}
 
 			<div>
 				<div>
